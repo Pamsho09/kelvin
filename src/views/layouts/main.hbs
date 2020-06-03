@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/css?family=Alata|Courgette|Fredoka+One|Pacifico|Roboto+Mono&display=swap" rel="stylesheet">  <link rel="stylesheet" href="/css/index.css">
+    <title>Kelvin</title>
+     <link rel="stylesheet" href="/css/cursos.css">
+     <link rel="stylesheet" href="/css/log.css">
+     <link rel="stylesheet" href="/css/perfil.css">
+    <script>
+   
+ var a=  (screen.height)-90;
+    
+
+ function cambio(){
+
+
+    if (screen.width <= 1080) {
+
+ 
+document.getElementById('sli').src="/img/morraM.jpg"
+var sli = document.getElementById('sli');
+        if(sli && sli.style) {sli.style.height = a+'px';}
+
+    }
+  
+else {
+    document.getElementById('sli').src="/img/morra.jpg"
+    var sli = document.getElementById('sli');
+        if(sli && sli.style) {sli.style.height = a+'px';}
+}
+if (screen.width <= 1400) {
+    document.getElementById('centrado').style.fontSize="50px";
+}}
+
+</script>
+</head>
+
+<body onload="cambio()" >
+    <header id="cabezera">
+
+
+        
+        <center>
+            <a href="/"><H1 id="h1">KELVINN</H1></a>
+
+       </center>
+    </header>
+    
+   
+<main>
+ {{> messages }}
+      {{> errors }}
+      {{{ body }}}
+
+</main>
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<footer><center><a href="/users/logout">Logout</a></center>
+
+
+</footer>
+</body>
+</html>

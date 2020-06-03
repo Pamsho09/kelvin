@@ -1,0 +1,87 @@
+#contenedor{
+
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    }
+    
+    #tema{
+    overflow: hidden;
+        width: 90%;
+        height: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+    background: #A3D3FF;
+           margin-top: 10px;
+    border-radius: 30px;
+    }
+    #tema2{
+        overflow: hidden;
+            width: 90%;
+            height: 100px;
+            margin-left: 5%;
+            margin-right: 5%;
+        background: #B38D4F;
+               margin-top: 10px;
+        border-radius: 30px;
+        }
+        #tema3{
+            overflow: hidden;
+                width: 90%;
+                height: 100px;
+                margin-left: 5%;
+                margin-right: 5%;
+            background: #94DCA3;
+                   margin-top: 10px;
+            border-radius: 30px;
+            }
+            #tema4{
+                overflow: hidden;
+                    width: 90%;
+                    height: 100px;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                background: #FAA6FF;
+                       margin-top: 10px;
+                border-radius: 30px;
+                }
+    #centrados{
+        overflow: hidden;
+       
+     padding: 30px;
+        color: #4e4e4e;
+        font-size: 150%;
+        font-family: 'Fredoka One', cursive;
+    }
+    #Buscar{
+    width: 90%;
+    height: 50px;
+    
+    
+    border-radius: 10px;
+    
+    }
+    .container-1{
+        width: 300px;
+        vertical-align: middle;
+        white-space: nowrap;
+        position: relative;
+      }
+      .container-1 input#search{
+          margin-top: 10px;
+          margin-bottom: 10px;
+      width: 100%;
+      height: 50px;
+      background: #F2CD60;
+      border: none;
+      font-size: 10pt;
+      float: left;
+      color: #63717f;
+      padding-left: 45px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      font-family: 'Fredoka One', cursive;
+    }

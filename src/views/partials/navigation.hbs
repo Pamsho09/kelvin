@@ -1,0 +1,22 @@
+  {{#if user}}
+<nav id="navegacion">
+     <center>
+<ul>
+
+    <li><a id="nav"href="./perfil">Perfil</a></li>
+    <li><a id="nav"href="./cursos">Cursos</a></li>
+    <li><a id="nav"href="">Formularios</a></li>
+</ul></center>   
+</nav>
+  {{else}}
+<nav id="navegacion">
+     <center>
+<ul>
+<h1>{{user.name}}</h1>
+    <li><a id="nav"href="./users/signin">Inicia seccion</a></li>
+    <li><a id="nav"href="./users/signup">Crea una cuenta</a></li>
+    
+</ul></center></nav>
+        {{/if}}
+        
+        

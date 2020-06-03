@@ -1,0 +1,33 @@
+
+<div id="caja"><center>
+    <div id="tex" style="font-family: 'Fredoka One', cursive;
+">Crea una cuenta</div>
+<div>
+<form action="/users/signup" method="POST">
+
+    <div>
+        <input class="textbox" type="text" name="name" placeholder="Nombre Completo" value="{{name}}">
+    </div>
+     <div>
+        <input class="textbox" type="text" name="escuela" placeholder="Escuela" value="{{escuela}}">
+          <input style="visibility:hidden" type="text" name="ran" placeholder="Escuela" value="0">
+    </div>
+     <div>
+        <input class="textbox" type="email" name="email" placeholder="email" value="{{email}}">
+    </div>
+     <div>
+        <input class="textbox" type="password" name="password" placeholder="Password" >
+    </div>
+    <div>
+        <input class="textbox" type="password" name="password2" placeholder="Password">
+
+        <div>
+<button class="boton" type="submit">
+    Registrar
+</button>
+
+        </div>
+    </div>
+</form>
+
+</div></center></div>

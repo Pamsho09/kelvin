@@ -1,0 +1,88 @@
+*{
+    font-family: 'Fredoka One', cursive;
+    margin: 0;
+    padding: 0;
+     
+}
+body{
+  
+    background: rgb(244, 248, 250);
+}
+#h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #F2CD60;
+}
+#cabezera{
+width: 100%;
+height: auto;
+    background:#004385 ;
+   
+    font-size: 150%;
+
+    
+
+   
+    overflow: hidden;
+    color: #fff;
+}
+#navergacion  ul li{
+   
+    height: 30px;
+    max-height: 30px;
+    padding-left: 1%;
+    overflow: hidden;
+    color: #fff;
+   
+}
+ #nav{
+margin-right: 3%;
+margin-left: 3%;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 150%;
+
+}
+ul li{
+display: inline;
+}
+#navegacion{
+    background: #33CDFF;
+}
+#slid {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+ 
+}h2{
+float: initial;
+}
+#sli{
+    width: 100%;
+    overflow: hidden;
+}
+#centrado{
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F2CD60;
+    font-size: 100px;
+    
+
+}
+#abajo{
+width: 100%;
+    overflow: hidden;
+    
+    
+}
+a{
+
+    text-decoration: none;
+}

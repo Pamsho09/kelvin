@@ -1,0 +1,37 @@
+
+ {{> navigation }}
+<script>
+    
+            var a= 300;
+            var b=  (a*150)/300;
+function cambio(){
+
+                document.getElementById('userimg').style.borderRadius=b+"px";
+           
+           
+           var a=  (screen.height)-90;
+
+   if (screen.width <= 1080) {
+
+
+var sli = document.getElementById('info');
+       if(sli && sli.style) {sli.style.height = a+'px';}
+
+   }
+ 
+else {
+   
+   var sli = document.getElementById('info');
+       if(sli && sli.style) {sli.style.height = a+'px';}
+}}
+</script>
+<div id="info">
+    <center>
+<img src="img/prueba.jpg" alt="" id="userimg">
+<span id="username"> {{user.name}} </span>
+<span id="name">{{user.email}}</span>
+<span id="Rankin">{{user.ran}}</span>
+<span id="school">{{user.escuela}}</span>
+
+</center>
+</div>

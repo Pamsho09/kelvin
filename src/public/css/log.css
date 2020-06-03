@@ -1,0 +1,71 @@
+.textbox
+{width: 100%;
+border: 3px solid rgb(100, 215, 253);
+font-size: 18px;
+font-family: 'Fredoka One', cursive;
+margin-top: 10px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+-moz-border-radius:  10px;
+-webkit-border-radius:  10px;
+-o-border-radius:  10px;
+background:#FBFFAD;
+background: linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+color: #2E3133;
+}
+
+.textbox:focus
+{
+color: #2E3133;
+border-color: #FBFFAD;
+}
+#caja{
+
+
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#tex{
+margin-top: 10px;
+
+font-size: 150%;
+}
+.boton{
+width: 50%;
+border: 3px solid rgb(100, 215, 253);
+font-size: 18px;
+font-family: 'Fredoka One', cursive;
+margin-top: 10px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+-moz-border-radius:  10px;
+-webkit-border-radius:  10px;
+-o-border-radius:  10px;
+background:rgb(131, 206, 250);
+color:#fff;
+color: #2E3133;
+
+}
+.alert{
+
+
+    font-family: 'Fredoka One', cursive;
+    color: #f14a4a;  
+}
+#logo{
+  width:  40%;
+
+
+
+
+}
